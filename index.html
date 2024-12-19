@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-top">
+            <div class="header-top-left">
+              <div class="logo">
+                <img src="./images/logo.png" alt="logo" />
+              </div>
+              <div class="lang">
+                <span class="eng">Eng</span>
+                <span>Рус</span>
+              </div>
+            </div>
+            <div class="header-top-right">
+              <div class="nav">
+                <nav>
+                  <span>О нас</span>
+                  <span>Туры</span>
+                  <span>Визы</span>
+                  <span>Контакты</span>
+                </nav>
+              </div>
+              <button class="mob-menu-btn">
+                <img src="./images/menu.svg" alt="menu" />
+              </button>
+              <button>Помощь</button>
+            </div>
+          </div>
+          <div class="header-center">
+            <div class="header-center-left">
+              <h3>Исследуйте мир вместе с нами</h3>
+              <span
+                >Брось себе вызов. Отправься в путешествия в дикие уголки
+                природы.</span
+              >
+            </div>
+            <div class="header-center-right">
+              <span>Быстрый поиск тура</span>
+              <div class="input">
+                <div class="input-text">
+                  <input class="where" type="text" placeholder="Куда" />
+                  <div class="input-center">
+                    <input class="when" type="text" placeholder="Когда" />
+                    <input
+                      class="duration"
+                      type="text"
+                      placeholder="Продолжительность"
+                    />
+                  </div>
+                  <select name="tourType" id="tourType">
+                    <option value="" hidden>Тип тура</option>
+                  </select>
+                  <button>Найти</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-bottom">
+            <h5>Почему именно мы</h5>
+            <div class="header-bottom-wrapper">
+              <div class="card">
+                <div><img src="./images/card_header1.png" alt="card1"></div>
+                <span>Визовая поддержка клиентов</span>
+              </div>
+              <div class="card">
+                <div><img src="./images/card_header2.png" alt="card2"></div>
+                <span>Направления по всему миру</span>
+              </div>
+              <div class="card">
+                <div><img src="./images/card_header3.png" alt="card3"></div>
+                <span>Сопровождение опытными гидами</span>
+              </div>
+              <div class="card">
+                <div><img src="./images/card_header4.png" alt="card4"></div>
+                <span>Полное обеспечение снаряжением</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main-content">
+        <h5>Актуальные направления</h5>
+        <div class="card-wrapper">
+          
+          <div class="card">
+            <div class="price-wrapper first-card">
+              <span class="price">от <strong>460$</strong></span>
+              <span class="date">26 октября 2018, 7 дней</span>
+            </div>
+            <div class="text-wrapper">
+              <span class="heading-text">Кемпинг в Хардангере – сердце Региона фьордов</span>
+              <span class="content">Одно из лучших мест отдыха находится
+                в районе Хардангера, у туристов есть возможность ежедневно любоваться дикой природой севера.</span>
+              <span class="add">Подробнее</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="price-wrapper second-card">
+              <span class="price">от <strong>520$</strong></span>
+              <span class="date">11 ноября 2018, 5 дней</span>
+            </div>
+            <div class="text-wrapper">
+              <span class="heading-text">Треккинг по Согне-фьорд       с восхождением на Гальхёпигген</span>
+              <span class="content">Уникальный поход совмещенный с путешествием по самому большому и .</span>
+              <span class="add">Подробнее</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="price-wrapper third-card">
+              <span class="price">от <strong>440$</strong></span>
+              <span class="date">12 ноября 2018, 5 дней</span>
+            </div>
+            <div class="text-wrapper">
+              <span class="heading-text">Восхождение на гору Ушба в регионе Сванети</span>
+              <span class="content">Одна из самых знаменитых гор Кавказа. Расположена она в регионе Сванети. Со сванского языка "уш" означает беда, "ба" — гору. То есть гора, приносящая несчастье.
+              </span>
+              <span class="add">Подробнее</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="price-wrapper fourth-card">
+              <span class="price">от <strong>560$</strong></span>
+              <span class="date">12 мая 2019, 8 дней</span>
+            </div>
+            <div class="text-wrapper">
+              <span class="heading-text">Каякинг на каноэ по озеру Сайма в Финляндии</span>
+              <span class="content">Водный поход с элементами ориентирования и необычными природными объектами. Неделя настоящего отдыха для тех, кто любит ...</span>
+              <span class="add">Подробнее</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="price-wrapper fifth-card">
+              <span class="price">от <strong>630$</strong></span>
+              <span class="date">18 мая 2019, 8 дней</span>
+            </div>
+            <div class="text-wrapper">
+              <span class="heading-text">Треккинг к Языку Тролля — Фьорд Sørfjorden, Норвегия</span>
+              <span class="content">Язык Тролля - без преувеличения самое известное и культовое место в Норвегии.
+                К нему не доехать на машине. Сюда могут попасть только те..</span>
+              <span class="add">Подробнее</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="price-wrapper sixth-card">
+              <span class="price">от <strong>700$</strong></span>
+              <span class="date">21 мая 2019, 9 дней</span>
+            </div>
+            <div class="text-wrapper">
+              <span class="heading-text">Поход по Исландии - Лаугавегур - Ландманалуга</span>
+              <span class="content">За 9 ходовых дней (из них 2 дня – радиальные выходы) пройдем ~ 135 км по горам, лавовым полям, разноцветным холмам и другим исландским природным..</span>
+              <span class="add">Подробнее</span>
+            </div>
+          </div>
+
+        </div>
+        <button class="button-main">Смотреть все</button>
+      </div>
+      </div>
+
+      <div class="info-wrapper">
+        <div class="container info-wrapper1">
+        <div class="info">
+          <span class="number-info">9</span>
+          <span class="text-info">Лет работы</span>
+        </div>
+        <div class="info">
+          <span class="number-info">62,500</span>
+          <span class="text-info">Довольных клиентов</span>
+        </div>
+        <div class="info">
+          <span class="number-info">112</span>
+          <span class="text-info">Захватываюших туров</span>
+        </div>
+        <div class="info">
+          <span class="number-info">23</span>
+          <span class="text-info">Офиса в Беларуси</span>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <h5>Наш блог</h5>
+          <div class="footer-wrapper-pic">
+            <div class="large-pic">
+              <span>10 мест на Земле, которые обязательно должен посетить каждый</span>
+              <span class="date">20 октября 2018</span>
+            </div>
+            <div class="small-pic">
+              <img src="./images/small-pic1.png" alt="small-pic1">
+              <div class="text-small-pic">
+              <h6>Как стать успешным тревел-блогером</h6>
+              <span>Блоги о путешествиях - это актуальное пространство, и каждый день оно становится более переполненным. И многие советы, которые.. </span>
+              <div class="date-wrapper">
+                <span class="date">17 октября 2018</span>
+                <div class="icon-wrapper">
+                  <img src="./images/chat.png" alt="chat">
+                  <span>218</span>
+                  <img src="./images/like.png" alt="like">
+                  <span>21</span>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="small-pic">
+              <img src="./images/small-pic2.png" alt="small-pic2">
+              <div class="text-small-pic">
+              <h6>Лайфхаки успешно- го путешествия по Норвегии</h6>
+              <span>Норвегия — пожалуй, лучшая страна для приключенчес- кого туризма в Европе. Здесь есть все: горы для альпинистов..</span>
+              <div class="date-wrapper">
+                <span class="date">12 октября 2018</span>
+                <div class="icon-wrapper">
+                  <div class="icon-wrapper-chat">
+                  <img src="./images/chat.png" alt="chat">
+                  <span>112</span>
+                </div>
+                <div class="icon-wrapper-like">
+                  <img src="./images/like.png" alt="like">
+                  <span>13</span>
+                </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <button class="button-main">Смотреть все</button>
+        </div>
+        <div class="footer-center">
+          <h5>Отзывы наших клиентов</h5>
+          <img class="photo" src="./images/footer_center.jpg" alt="footer_center">
+          <span>Спасибо, что даете почувствовать себя сводобными! Ходили дважды, и каждый раз заряжались энергией на год вперед. Отдельное спасибо гиду Михаилу!</span>
+          <span class="tourist-name">София</span>
+          <img src="./images/footer-center-icon.png" alt="footer-icon">
+        </div>
+        <div class="footer-bottom">
+
+            <div class="contacts-wrapper">
+            <div class="contacts">
+              <span>E-mail</span>
+              <span>Адрес</span>
+            </div>
+            <div class="contacts-content">
+              <span>wildvacation@gmail.com</span>
+              <span>Немига 5а, офис 18,  Минск</span>
+            </div>
+          </div>
+
+          <div class="contacts-wrapper">
+            <div class="contacts">
+              <span>Телефоны</span>
+            </div>
+            <div class="contacts-content">
+              <span>+375 33 888-44-22</span>
+              <span>+375 29 963-85-21</span>
+            </div>
+          </div>
+
+
+            <div class="social-media">
+              <span>Мы в соцсетях</span>
+              <div class="socialMediaIcons">
+                <img src="./images/instagram.png" alt="insta">
+                <img src="./images/vk.png" alt="vk">
+                <img src="./images/twitter.png" alt="twitter">
+                <img src="./images/facebook.png" alt="facebook">
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
